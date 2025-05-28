@@ -1,7 +1,7 @@
 ﻿
 using ItemsCollection.Base;
-using static Store;
 
+using static Store;
 public delegate void ItemSoldHandler<T>(T item) where T : IStoreItem;
 
 class Program
